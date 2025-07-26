@@ -1,0 +1,18 @@
+/* frontend/style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+input, button {
+    padding: 8px;
+    margin: 5px;
+}
+#productList {
+    margin-top: 20px;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+}

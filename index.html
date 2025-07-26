@@ -1,0 +1,25 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>📦 Product Catalog</h1>
+    <input type="text" id="searchBox" placeholder="🔍 Search products..." oninput="searchProducts()">
+    <div id="productList"></div>
+
+    <h2>Add New Product</h2>
+    <form onsubmit="addProduct(event)">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="description" placeholder="Description" required>
+        <input type="number" step="0.01" id="price" placeholder="Price" required>
+        <input type="text" id="category" placeholder="Category" required>
+        <button type="submit">Add</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
